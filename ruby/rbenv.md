@@ -18,6 +18,12 @@ rbenv install --list
 
 # install
 rbenv install 2.2.4
+
+# set default
+rbenv global 2.2.2
+
+#check
+ruby -v
 ```
 
 

@@ -5,3 +5,10 @@
 ## ローカルリポジトリでブランチを消したのをリモートにも反映させたい場合。
 
 `git push origin　:<yourBranch>`
+
+## 該当gitレポだけAuthorを変える。
+
+```
+git config --local user.name sea_mountain
+git config --local user.email valid_email@example.com
+```
