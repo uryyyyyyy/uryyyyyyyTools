@@ -15,6 +15,7 @@ sudo apt-get install launchy -y
  
 # chrome chromium
 sudo apt-get install chromium-browser
+sudo apt-get install pepperflashplugin-nonfree
  
 # atom
 wget https://atom.io//download/deb
@@ -49,7 +50,7 @@ sudo add-apt-repository ppa:cwchien/gradle -y
 sudo apt-get update
 sudo apt-get install gradle
  
-# haskel
+# haskell
 # http://new-www.haskell.org/downloads/linux
  
 sudo apt-get update

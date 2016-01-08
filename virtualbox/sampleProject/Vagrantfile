@@ -1,0 +1,5 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu-14.04"
+  config.vm.hostname = "trusty.box"
+  config.vm.network :private_network, ip: "192.168.0.42"
+end
