@@ -6,6 +6,6 @@ http://dev.classmethod.jp/tool/github-ssh-sub-account-setting/
 ## 特定のリポジトリだけは違うユーザーで使いたい
 
 ```
-git config --local.user="hoge"
-git config --local.email="hoge@gmail.com"
+git config --local user.name="hoge"
+git config --local user.email="hoge@gmail.com"
 ```
