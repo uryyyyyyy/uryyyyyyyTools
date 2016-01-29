@@ -12,3 +12,7 @@
 git config --local user.name sea_mountain
 git config --local user.email valid_email@example.com
 ```
+
+## git diffをどこでも使えるようにする。
+
+alias diff="git diff --no-index --color-words --word-diff-regex='\\w+|[^[:space:]]'"
